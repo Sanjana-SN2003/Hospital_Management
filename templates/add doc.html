@@ -7,7 +7,7 @@
     <style>
       body {
         font-family: "Roboto", sans-serif;
-        background-image: url("../static/images/Pulmonology.jpeg");
+        background-image: url("C:\Users\Sanjana\OneDrive\Desktop\Hospital_Management-1\static\images\bookappointment.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -156,14 +156,24 @@
         <div class="form-group">
           <label for="hospital">Select Hospital</label>
           <select id="hospital" name="hospital" required>
-            <option value="" disabled selected>Select Hospital</option>
+            <option value="" disabled selected>Manipal Hospital,Hebbal</option>
             <!-- Dynamic options -->
           </select>
         </div>
         <div class="form-group">
           <label for="diseaseInput">Select Speciality</label>
           <select id="diseaseInput" name="diseaseInput">
-            <option value="" disabled selected>Select an option</option>
+            <div class="form-group">
+              <label for="diseaseInput">Select Speciality</label>
+              <select id="diseaseInput" name="diseaseInput">
+                <option value="" disabled selected>Select a speciality</option>
+                <option value="infectious">Orthopedic</option>
+                <option value="cardiovascular">Cardiac</option>
+                <option value="lung_cancer">Viral Infection</option>
+                <option value="asthma">Respiratory</option>
+              </select>
+            </div>
+            
             <!-- Add more options here -->
           </select>
         </div>
